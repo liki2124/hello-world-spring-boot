@@ -12,6 +12,16 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.3.1.RELEASE</version>
     </parent>
+    <repository>
+  <id>likithasgowdablr</id>
+  <url>https://pkgs.dev.azure.com/likithasgowdablr/_packaging/likithasgowdablr/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 
     <!-- Additional lines to be added here... -->
     <dependencies>
